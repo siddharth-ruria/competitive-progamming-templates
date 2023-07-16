@@ -3,7 +3,7 @@
 
 /* helps calculate hash of a substring in constant time. */
 // working explained: 
-/* - add(), multiply(), and power() are just helper functions which are modular operations to help keep the value under modulo (1e9+7).
+/* - add(), multiply(), and power() are just helper functions which are modular operations to help keep the values under modulo (1e9+7).
    - the pre_computation() is only called once throughout the entire lifetime of the code.
    - build() function is called once for one string. it helps create the array hashes[] of a string, where hashes[i] indicates the hash of the substring from 0 -> i  S[0, i].
      if you want to create hashes[] array for a different string, you need to call build() for that as well.
