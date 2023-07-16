@@ -5,3 +5,6 @@ List of templates I use.
 
 ## Main Coding Template
 [main.cpp](https://github.com/siddharth-ruria/competitive-progamming-templates/blob/main/main-contest-template/main.cpp)
+
+## Strings
+* [String Hashing](https://github.com/siddharth-ruria/competitive-progamming-templates/blob/main/strings/string-hashing.cpp)
