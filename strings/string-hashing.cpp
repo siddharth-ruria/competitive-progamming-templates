@@ -15,7 +15,8 @@
 
 /* extra notes:
     1. 'base' should be prime and greater than the number of characters in the input string
-    2. 'mod' should also be prime.*/
+    2. 'mod' should also be prime.
+    3. "hash" of a string is defined as => s[0]*base^0 + s[1]*base^1 + s[2]*base^2 + s[3]*base^3 + .... + s[n-1]*base^(n-1) */
 
 /* updates required:
    - need to randomise the values of 'mod' and 'base' so as to avoid hacking in a live environment (CF contests).
