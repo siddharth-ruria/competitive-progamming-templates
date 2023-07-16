@@ -4,3 +4,4 @@ List of templates I use.
 [Codeforces](https://codeforces.com/profile/last.attempt) link.
 
 ## Main Coding Template
+[Click.](https://github.com/siddharth-ruria/competitive-progamming-templates/blob/main/main-contest-template/main.cpp)
