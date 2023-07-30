@@ -1,6 +1,3 @@
-// Siddharth Ruria
-// Linkedin: https://www.linkedin.com/in/ruria-siddharth/
-
 /* helps calculate hash of a substring in constant time. */
 // working explained: 
 /* - add(), multiply(), and power() are just helper functions which are modular operations to help keep the values under modulo (1e9+7).
@@ -21,6 +18,9 @@
 /* updates required:
    - need to randomise the values of 'mod' and 'base' so as to avoid hacking in a live environment (CF contests).
    - could add another modulo M2 and perform double hashing. */
+
+// siddharth ruria
+// linkedin: https://www.linkedin.com/in/ruria-siddharth/
 
 #include <iostream>
 #include <bits/stdc++.h>
