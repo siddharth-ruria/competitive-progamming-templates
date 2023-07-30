@@ -1,5 +1,5 @@
-// Siddharth Ruria
-// Linkedin: https://www.linkedin.com/in/ruria-siddharth/
+// siddharth ruria
+// linkedin: https://www.linkedin.com/in/ruria-siddharth/
 
 // #pragma GCC optimize("O3,unroll-loops")
 
@@ -22,7 +22,7 @@ using ll= long long;
 using lld= long double;
 using ull= unsigned long long;
 
-// Constants
+// constants
 const lld PI= 3.141592653589793238;
 const ll INF= LONG_LONG_MAX;
 const ll MOD= 1e9+7;
@@ -63,10 +63,10 @@ bool isPrime(ll n){ if(n<= 1) return false; if(n<= 3) return true; if(n%2== 0 ||
 bool isPowerOfTwo(ll n){ if(n== 0) return false; return (ceil(log2(n))== floor(log2(n))); }
 bool isPerfectSquare(ll x){ if(x>= 0) {ll sr= sqrt(x); return (sr*sr== x); } return false; }
 
-#define Siddharth 1
+#define siddharth 1
 
 // debug
-#ifdef Siddharth 
+#ifdef siddharth 
 #define debug(x) cerr << #x << " " << x << " " << nline;
 #else
 #define debug(x);
@@ -94,7 +94,7 @@ int main() {
 	auto stop= high_resolution_clock::now();
 	auto duration= duration_cast<microseconds>(stop-start);
 
-    #ifdef Siddharth
+    #ifdef siddharth
 	cerr << "time: " << duration.count()/1000 << endl;
 	#endif
 
