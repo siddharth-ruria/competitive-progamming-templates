@@ -8,7 +8,7 @@
    - the pre_computation() and build() are only for some before hand calculations which helps us make the get_hash() function work in constant time.
    - the working of the code is based on some mathematical calculations I have done which also involves the Fermat's Little Theorem. 
      the proof and working of the code is 100% accurate and correct.
-   */
+*/
 
 /* extra notes:
     1. 'base' should be prime and greater than the number of characters in the input string.
